@@ -4,11 +4,12 @@ import Dashboard from "../page/Dashboard/Dashboard";
 import Landingpage from "../page/Landingpage";
 import AuthLayout from "../layout/AuthLayout";
 import SignUp from "../page/Auth/SignUp";
-import CreateaccountNotification from "../page/Auth/createaccountNotification";
+
 import SignIn from "../page/Auth/SignIn";
 import Forgetpassword from "../page/Auth/Forgetpassword";
 import ForgetpasswordNotification from "../page/Auth/ForgetpasswordNotification";
 import Changepassword from "../page/Auth/Changepassword";
+import CreateaccountNotification from "../page/Auth/CreateaccountNotification";
 
 export const mainRouter = createBrowserRouter([
   {

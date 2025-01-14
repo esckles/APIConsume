@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { signup } from "../../API/Authapi";

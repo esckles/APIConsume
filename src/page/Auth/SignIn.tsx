@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaSpinner } from "react-icons/fa";
-import { data, Link, useNavigate, useParams } from "react-router-dom";
-import { signin, signup, verifyaccount } from "../../API/Authapi";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { signin, verifyaccount } from "../../API/Authapi";
 import { jwtDecode } from "jwt-decode";
 
 import toast, { Toaster } from "react-hot-toast";
